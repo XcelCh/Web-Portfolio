@@ -10837,7 +10837,7 @@ html {
   padding-bottom: 3rem;
 }
 
-.content-section-heading h2, .content-section-heading .h2 {
+.content-section-heading h1, .content-section-heading .h1 {
   font-size: 3rem;
 }
 .content-section-heading h3, .content-section-heading .h3 {
@@ -11064,8 +11064,14 @@ footer.footer .social-link:hover {
   text-transform: uppercase;
 }
 .portfolio-item .caption .caption-content p {
-  font-weight: 300;
-  font-size: 1.2rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 3rem;
+  bottom: 2rem;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .25s, visibility .6s;
 }
 @media (min-width: 992px) {
   .portfolio-item {
@@ -11100,6 +11106,10 @@ footer.footer .social-link:hover {
     background-color: rgba(29, 128, 159, 0.6);
     -webkit-clip-path: inset(1rem);
             clip-path: inset(1rem);
+  }
+  .portfolio-item:hover .caption .caption-content p {
+    visibility: visible;
+    opacity: 1;
   }
 }
 
