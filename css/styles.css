@@ -10834,7 +10834,7 @@ html {
 
 .content-section {
   padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
 .content-section-heading h1, .content-section-heading .h1 {
@@ -11134,5 +11134,9 @@ footer.footer .social-link:hover {
 }
 
 .title-href:hover{
-  color: #1D809F;;
+  color: #1D809F;
+}
+
+.project-card{
+  width: 22rem;
 }
