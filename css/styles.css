@@ -10978,18 +10978,19 @@ footer.footer {
   padding-bottom: 3rem;
 }
 footer.footer .social-link {
+  background-color: #fff;
+  color: #1D809F !important;
   display: block;
   text-decoration: none;
   height: 4rem;
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: rgba(224, 224, 224, 0.8);
   text-decoration: none;
 }
 
@@ -11135,6 +11136,14 @@ footer.footer .social-link:hover {
 
 .title-href:hover{
   color: #1D809F;
+}
+
+.footer-href{
+  color: #fff;
+}
+
+.footer-href:hover{
+  color: #1D23DF;
 }
 
 .project-card{
